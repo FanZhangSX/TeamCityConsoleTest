@@ -29,6 +29,7 @@ namespace TeamCityConsoleTest.Test
 
             Assert.AreEqual(para, 2);
 
+
             Program.MySqure(2, out para);
             Assert.AreEqual(para, 6);
         }
