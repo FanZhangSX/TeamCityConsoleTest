@@ -27,10 +27,10 @@ namespace TeamCityConsoleTest.Test
 
             Program.MySqure(1, out para);
 
-            Assert.AreEqual(para, 1);
+            Assert.AreEqual(para, 2);
 
             Program.MySqure(2, out para);
-            Assert.AreEqual(para, 4);
+            Assert.AreEqual(para, 6);
         }
     }
 }
